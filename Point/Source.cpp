@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 class Point
@@ -26,15 +26,15 @@ int main()
 {
     setlocale(LC_ALL, "");
     double a_x, a_y;
-	cout << "Ââåäèòå êîîðäèíàòû a_x, a_y: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ a_x, a_y: ";
     cin >> a_x >> a_y;
 
-    cout << "Ðàññòîÿíèå äî òî÷êè ðàâíî: " << distance(a_x, a_y, 0, 0) << endl;
+    cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð´Ð¾ Ñ‚Ð¾Ñ‡ÐºÐ¸ Ñ€Ð°Ð²Ð½Ð¾: " << distance(a_x, a_y, 0, 0) << endl;
 
 	double b_x, b_y;
-	cout << "Ââåäèòå êîîðäèíàòû b_x, b_y: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ b_x, b_y: ";
 	cin >> b_x >> b_y;
 
-	cout << "Ðàññòîÿíèå ìåæäó òî÷êàìè ðàâíî: " << distance(a_x, a_y,b_x, b_y) << endl;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¼ÐµÐ¶Ð´Ñƒ Ñ‚Ð¾Ñ‡ÐºÐ°Ð¼Ð¸ Ñ€Ð°Ð²Ð½Ð¾: " << distance(a_x, a_y,b_x, b_y) << endl;
 }
 
